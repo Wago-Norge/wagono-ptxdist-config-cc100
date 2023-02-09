@@ -2,4 +2,4 @@
 Configuration of ptxdist for building firmware based on WAGO sdk
 
 how to build:
-'./scripts/build.sh'
+```./scripts/build.sh```

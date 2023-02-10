@@ -10,6 +10,7 @@ how to build cc100 firmware:
 
 list avaiable firmware versions (tags):
 ```
+cd cc100
 git tag
 ```
 

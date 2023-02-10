@@ -1,6 +1,3 @@
-#!/bin/bash
-set -e
-
 if [ -z "$1" ]
 then
     echo "Platform not specified! Choices: cc100, pfc or tp"

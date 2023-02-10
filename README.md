@@ -5,3 +5,13 @@ how to build cc100:
 ```
 ./scripts/build_cc100.sh
 ```
+
+list avaiable versions (tags):
+```
+git tag
+```
+
+select specific version (tag):
+```
+git checkout <tag>
+```

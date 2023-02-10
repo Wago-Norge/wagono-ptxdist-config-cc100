@@ -1,4 +1,4 @@
-cd /workspaces/src/sdk-cc100
+cd /workspaces/cc100
 git submodule update --init
 ptxdist select configs/cc100/ptxconfig_generic
 ptxdist platform configs/cc100/platformconfig

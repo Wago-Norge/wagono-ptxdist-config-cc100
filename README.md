@@ -1,17 +1,22 @@
 # ptxdist config for cc100
 Configuration of ptxdist for building firmware based on WAGO sdk
 
-how to build cc100:
+clone cc100 firmware sdk:
 ```
-./scripts/build_cc100.sh
+./init.sh
 ```
 
-list avaiable versions (tags):
+how to build cc100 firmware:
+```
+./build.sh
+```
+
+list avaiable firmware versions (tags):
 ```
 git tag
 ```
 
-select specific version (tag):
+select specific firmare version (tag):
 ```
 git checkout <tag>
 ```

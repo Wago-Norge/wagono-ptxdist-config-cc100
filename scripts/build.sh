@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 if [ -z "$1" ]
 then
     echo "Platform not specified! Choices: cc100, pfc or tp"
@@ -5,7 +8,7 @@ elif [ $1 = "cc100" ]
 then
     echo "CC100 selected"
     echo "**************"
-    cd /workspaces/wagono-ptxdist-config-cc100/src/
+    cd /workspaces/wagono-ptxdist-config/sdk-cc100/
     ptxdist select configs/cc100/ptxconfig_generic
     ptxdist platform configs/cc100/platformconfig
     ptxdist toolchain /opt/gcc-Toolchain-2019.12/arm-linux-gnueabihf/bin

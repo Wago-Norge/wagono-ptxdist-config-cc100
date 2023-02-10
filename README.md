@@ -3,6 +3,12 @@
 # ptxdist config for cc100
 Configuration of ptxdist for building firmware based on WAGO sdk
 
+IMPORTANT! init and update the submodule:
+```
+./init.sh
+```
+
+
 how to build cc100 firmware:
 ```
 ./build.sh

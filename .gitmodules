@@ -1,9 +1,3 @@
 [submodule "sdk-cc100"]
 	path = sdk-cc100
 	url = https://github.com/Wago-Norge/cc100-firmware-sdk.git
-[submodule "sdk-pfc-g2"]
-	path = sdk-pfc-g2
-	url = https://github.com/Wago-Norge/pfc-firmware-sdk-G2.git
-[submodule "sdk-tp"]
-	path = sdk-tp
-	url = https://github.com/Wago-Norge/tp-firmware-sdk.git

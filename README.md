@@ -8,19 +8,23 @@ IMPORTANT! init and update the submodule:
 ./init.sh
 ```
 
-
-how to build cc100 firmware:
+How to build cc100 firmware:
 ```
 ./build.sh
 ```
 
-list avaiable firmware versions (tags):
+How to create firmware image:
+```
+./createimage.sh
+```
+
+List avaiable firmware versions (tags):
 ```
 cd cc100
 git tag
 ```
 
-select specific firmare version (tag):
+Select specific firmare version (tag):
 ```
 git checkout <tag>
 ```

@@ -1,0 +1,10 @@
+## SECTION=wagono_specific
+
+menu "USB Support        "
+source "generated/wagono_specific_usb.in"
+endmenu
+
+menu "VS-Code Support    "
+source "generated/wagono_specific_vscode.in"
+endmenu
+

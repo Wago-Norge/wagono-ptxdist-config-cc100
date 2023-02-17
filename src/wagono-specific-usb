@@ -1,0 +1,9 @@
+## SECTION=wagono_specific_usb
+
+
+# Ikke ferdig
+config USB_ACM
+	bool "USB Modem (CDC ACM) support"
+    #USB_SUPPORT [=y] && USB [=y] && TTY [=y]
+    #depends on USB_SUPPORT [=y]
+    #help

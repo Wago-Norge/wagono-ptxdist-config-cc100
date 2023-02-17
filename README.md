@@ -8,7 +8,10 @@ IMPORTANT! init and update the submodule:
 ./init.sh
 ```
 
-How to build cc100 firmware:
+How to build cc100 firmware:  
+Her må vi ha videre steg angående valgene som skal tas om features.  
+Ingen vits å bygge "standard" firmware uten features..  
+
 ```
 ./build.sh
 ```

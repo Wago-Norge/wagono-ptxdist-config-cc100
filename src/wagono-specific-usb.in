@@ -1,0 +1,13 @@
+## SECTION=wagono_specific_usb
+
+# config USB_ACM is here:
+# ACM cant be selected ? Settings seems to have no effect on kernel config..
+source "/workspaces/cc100/platform-cc100/build-target/linux-5.15.19/drivers/usb/class/Kconfig"
+
+# Gives error
+#source "/workspaces/cc100/platform-cc100/build-target/linux-5.15.19/drivers/usb/common/Kconfig"
+#source "/workspaces/cc100/platform-cc100/build-target/linux-5.15.19/drivers/usb/Kconfig"
+
+# Ikke ferdig
+config FOO
+  bool "foo"
